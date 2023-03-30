@@ -7,3 +7,6 @@ Round the expertise borders
 Add Navbar
 Fix Logo
 Fix Fonts
+bring bottom icons closer and lower font size
+change comentaries to english
+change online e presencial button to img
