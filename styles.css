@@ -138,7 +138,7 @@ hr {
   list-style-position: inside;
 }
 
-@media (max-width: 577px) {
+@media (max-width: 900px) {
   .modalidade {
     margin: auto;
   }
@@ -149,6 +149,15 @@ hr {
     padding-right: 8%;
   }
 }
+
+@media (max-width: 770px) {
+  .mod-online {
+    padding-left: 0;
+  }
+  .mod-presencial {
+    padding-right: 0;
+  }
+}
 /* Agendamento */
 
 .agendamento h1 {
@@ -156,7 +165,7 @@ hr {
 }
 
 .icone-agendamento {
-  padding: 16px 0 0 0;
+  padding: 16px 16px 0 0;
   font-size: 48px;
 }
 
