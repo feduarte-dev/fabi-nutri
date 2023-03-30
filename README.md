@@ -5,3 +5,5 @@ To do list (Personal Opinion):
 Add favicon;
 Round the expertise borders
 Add Navbar
+Fix Logo
+Fix Fonts
