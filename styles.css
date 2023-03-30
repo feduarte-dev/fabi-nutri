@@ -2,19 +2,27 @@ body {
   background-color: rgb(254, 255, 237);
   color: rgb(103, 88, 72);
   text-align: center;
-  font-family: Cormorant;
-  padding: 15px;
+  font-family: Montserrat;
+  padding: 16px;
 }
+
+hr {
+  border: 0;
+  height: 0;
+  box-shadow: 0 0 10px 1px black;
+  content: "\00a0";
+}
+
 /* Cabecalho */
 .icone-cabecalho {
-  padding: 16px 48px 0 0;
+  padding: 16px 0 0 0;
   text-align: right;
-  font-size: 32px;
+  font-size: 28px;
 }
 
 .icone-cabecalho a {
   color: inherit;
-  padding-left: 10px;
+  padding-left: 12px;
 }
 
 .logo img {
@@ -25,35 +33,21 @@ body {
 /* Frase */
 .frase {
   background-color: rgb(154, 167, 146);
+  font-family: Dancing Script;
 }
 
 .frase h2 {
   font-size: 220%;
-  font-weight: 600;
-  padding: 30px 20% 10px 20%;
+  padding: 30px 10% 0 10%;
 }
 
 .frase p {
   padding: 0 15px 15px 0;
   text-align: right;
-  font-weight: 600;
 }
 
 /* Perfil */
-
-.perfil h2 {
-  font-weight: 500;
-  text-align: left;
-}
-
-.perfil h3 {
-  font-weight: 800;
-  text-align: left;
-}
-
-.perfil p {
-  font-size: 150%;
-  font-weight: 500;
+.perfil {
   text-align: left;
 }
 
@@ -67,17 +61,18 @@ body {
 }
 
 .agendar-consulta h2 {
-  font-weight: 600;
-  text-align: left;
-  padding-left: 9%;
+  text-align: center;
 }
 
 /* Especialidades */
 
+.especialidade h1 {
+  margin-bottom: 24px;
+}
+
 .opcoes p {
-  padding: 24px 0 0 0;
+  padding-top: 24px;
   margin-bottom: 0;
-  font-family: Oleo;
   font-size: 120%;
 }
 .opcoes img {
@@ -86,14 +81,8 @@ body {
   height: 250px;
 }
 
-.opcoes img:hover .especialidade {
-  padding: 16px;
-}
-
-.especialidade h1 {
-  font-family: Aleo;
-  font-size: 300%;
-  margin-bottom: 24px;
+.textos p {
+  padding-top: 8px;
 }
 
 /* Animação Especialidades */
@@ -133,37 +122,36 @@ body {
 }
 
 /* Atendimento */
+.modalidade {
+  border: 1px solid rgb(154, 167, 146);
+  background-color: rgb(154, 167, 146);
+  border-width: 20px 10px;
+  border-radius: 50%;
+  margin: 0 25% 32px 25%;
+}
+
 .atendimento h1 {
-  font-family: Aleo;
-  font-size: 300%;
   padding-bottom: 20px;
 }
 
 .atendimento li {
-  font-size: 150%;
-  font-weight: 600;
   list-style-position: inside;
-}
-.modalidade {
-  border: 1px solid rgb(154, 167, 146);
-  background-color: rgb(154, 167, 146);
-  padding: 0 20px 0 20px;
-  border-width: 20px 10px;
-  border-radius: 50%;
-  margin: 0 25% 32px 25%;
-  font-weight: 700;
 }
 
 @media (max-width: 900px) {
   .modalidade {
     margin: auto;
   }
+  .mod-online {
+    padding-left: 8%;
+  }
+  .mod-presencial {
+    padding-right: 8%;
+  }
 }
 /* Agendamento */
 
 .agendamento h1 {
-  font-family: Aleo;
-  font-size: 300%;
   padding-bottom: 20px;
 }
 
@@ -174,14 +162,25 @@ body {
 
 .icone-agendamento a {
   color: inherit;
-  padding-left: 10px;
 }
 
 .icone-agendamento p {
-  font-size: 50%;
+  font-size: 30%;
+}
+
+.icone-whats {
+  padding-left: 12%;
+}
+
+.icone-mail {
+  padding-right: 12%;
 }
 
 /* Copyright */
+.copyright {
+  font-size: 70%;
+}
+
 .copyright a {
   color: inherit;
   text-decoration: none;
