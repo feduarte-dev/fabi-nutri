@@ -141,7 +141,7 @@ hr {
 }
 
 .imagemAtendimento {
- width: 300px;
+ width: 80%;
 }
 
 @media (max-width: 900px) {
