@@ -140,6 +140,10 @@ hr {
   list-style: none;
 }
 
+.imagemAtendimento {
+ width: 300px;
+}
+
 @media (max-width: 900px) {
   .modalidade {
     margin: auto;
